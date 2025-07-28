@@ -23,21 +23,14 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
-  color: white;
-  transition: background-color 0.3s ease;
+  font-size: 2rem;
+  color: #1d1a16;
+  background-color: #b3af91;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Kleuren per vak */
-.vak1 { background-color: #fcd35c; } /* geel */
-.vak2 { background-color: #f6b9a8; } /* perzikroze */
-.vak3 { background-color: #bde2d3; } /* mintgroen */
-.vak4 { background-color: #f1e8db; color: black; } /* beige */
-.vak5 { background-color: #c29073; } /* zacht bruin */
+.vak:hover {
+  background-color: #5a5646;
+  color: #e7db76;
+}
 
-/* Hover-effecten */
-.vak1:hover { background-color: #c100d6; transform: scale(1.02); }
-.vak2:hover { background-color: #a738d2; transform: scale(1.02); }
-.vak3:hover { background-color: #6da2c1; transform: scale(1.02); color: white; }
-.vak4:hover { background-color: #d1b000; transform: scale(1.02); color: white; }
-.vak5:hover { background-color: #b64000; transform: scale(1.02); }
