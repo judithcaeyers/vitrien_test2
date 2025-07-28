@@ -5,23 +5,24 @@
 }
 
 html, body {
-  height: 100%;
   width: 100%;
+  height: 100%;
   font-family: 'IM Fell English', serif;
 }
 
 .vakken-container {
   display: flex;
-  height: 100vh;
-  width: 100vw;
+  flex-direction: row;
+  height: 100vh; /* Volledige hoogte */
+  width: 100vw;  /* Volledige breedte */
 }
 
 .vak {
-  flex: 1;
+  flex: 1; /* Verdeelt de breedte gelijk over de 5 vakken */
   height: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   font-size: 2rem;
   text-transform: uppercase;
   color: white;
