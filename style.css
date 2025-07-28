@@ -1,36 +1,22 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html, body {
-  width: 100%;
-  height: 100%;
-  font-family: 'IM Fell English', serif;
-}
-
-.vakken-container {
-  display: flex;
-  flex-direction: row;
-  height: 100vh;
-  width: 100vw;
+:root {
+  --beige: #f3efe7;
+  --rood: #d73228;
 }
 
 .vak {
   flex: 1;
   height: 100%;
+  background-color: var(--beige);
+  color: var(--rood);
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 2rem;
-  color: #1d1a16;
-  background-color: #b3af91;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.4s ease, color 0.4s ease;
 }
 
 .vak:hover {
-  background-color: #5a5646;
-  color: #e7db76;
+  background-color: var(--rood);
+  color: var(--beige);
+  cursor: pointer;
 }
-
