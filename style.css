@@ -4,24 +4,32 @@
   box-sizing: border-box;
 }
 
-body {
+html, body {
+  height: 100%;
+  width: 100%;
   font-family: 'IM Fell English', serif;
-  scroll-behavior: smooth;
 }
 
-.blok {
+.vakken-container {
+  display: flex;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
+}
+
+.vak {
+  flex: 1;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 3rem;
+  font-size: 2rem;
   text-transform: uppercase;
   color: white;
 }
 
-.blok1 { background-color: #f886fc; }
-.blok2 { background-color: #e7aaff; }
-.blok3 { background-color: #cadfeb; }
-.blok4 { background-color: #f9d41b; color: black; }
-.blok5 { background-color: #ff6f0e; }
+/* Kleuren per vak */
+.vak1 { background-color: #f886fc; }
+.vak2 { background-color: #e7aaff; }
+.vak3 { background-color: #cadfeb; }
+.vak4 { background-color: #f9d41b; color: black; }
+.vak5 { background-color: #ff6f0e; }
