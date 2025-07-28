@@ -36,8 +36,8 @@ html, body {
 .vak5 { background-color: #ff6f0e; }
 
 /* Hover-effecten */
-.vak1:hover { background-color: #e06ee3; }
-.vak2:hover { background-color: #d28be7; }
-.vak3:hover { background-color: #aacbdc; }
-.vak4:hover { background-color: #e6be00; }
-.vak5:hover { background-color: #d95d00; }
+.vak1:hover { background-color: #c100d6; transform: scale(1.02); }
+.vak2:hover { background-color: #a738d2; transform: scale(1.02); }
+.vak3:hover { background-color: #6da2c1; transform: scale(1.02); color: white; }
+.vak4:hover { background-color: #d1b000; transform: scale(1.02); color: white; }
+.vak5:hover { background-color: #b64000; transform: scale(1.02); }
