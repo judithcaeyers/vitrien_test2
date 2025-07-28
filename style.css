@@ -17,25 +17,32 @@ html, body {
   width: 100vw;
 }
 
-:root {
-  --beige: #f3efe7;
-  --rood: #d73228;
-}
-
 .vak {
   flex: 1;
   height: 100%;
-  background-color: var(--beige);
-  color: var(--rood);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
-  transition: background-color 0.4s ease, color 0.4s ease;
+  font-size: 1.5rem;
+  color: white;
+  transition: background-color 0.3s ease;
 }
 
-.vak:hover {
-  background-color: var(--rood);
-  color: var(--beige);
-  cursor: pointer;
-}
+/* Kleuren per vak */
+.vak1:hover { background-color: #fcd35c; } /* geel */
+.vak2:hover { background-color: #f6b9a8; } /* perzikroze */
+.vak3:hover { background-color: #bde2d3; } /* mintgroen */
+.vak4:hover { background-color: #f1e8db; color: black; } /* beige */
+.vak5:hover { background-color: #c29073; } /* zacht bruin */
+.vak1 { background-color: #fcd35c; } /* geel */
+.vak2 { background-color: #f6b9a8; } /* perzikroze */
+.vak3 { background-color: #bde2d3; } /* mintgroen */
+.vak4 { background-color: #f1e8db; color: black; } /* beige */
+.vak5 { background-color: #c29073; } /* zacht bruin */
+
+/* Hover-effecten */
+.vak1:hover { background-color: #c100d6; transform: scale(1.02); }
+.vak2:hover { background-color: #a738d2; transform: scale(1.02); }
+.vak3:hover { background-color: #6da2c1; transform: scale(1.02); color: white; }
+.vak4:hover { background-color: #d1b000; transform: scale(1.02); color: white; }
+.vak5:hover { background-color: #b64000; transform: scale(1.02); }
