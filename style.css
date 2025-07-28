@@ -13,23 +13,31 @@ html, body {
 .vakken-container {
   display: flex;
   flex-direction: row;
-  height: 100vh; /* Volledige hoogte */
-  width: 100vw;  /* Volledige breedte */
+  height: 100vh;
+  width: 100vw;
 }
 
 .vak {
-  flex: 1; /* Verdeelt de breedte gelijk over de 5 vakken */
+  flex: 1;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: white;
+  transition: background-color 0.3s ease;
 }
 
 /* Kleuren per vak */
 .vak1 { background-color: #f886fc; }
 .vak2 { background-color: #e7aaff; }
-.vak3 { background-color: #cadfeb; }
+.vak3 { background-color: #cadfeb; color: black; }
 .vak4 { background-color: #f9d41b; color: black; }
 .vak5 { background-color: #ff6f0e; }
+
+/* Hover-effecten */
+.vak1:hover { background-color: #e06ee3; }
+.vak2:hover { background-color: #d28be7; }
+.vak3:hover { background-color: #aacbdc; }
+.vak4:hover { background-color: #e6be00; }
+.vak5:hover { background-color: #d95d00; }
